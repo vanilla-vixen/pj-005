@@ -1,4 +1,12 @@
 /* fonts & rests /*
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 *{
 margin: 0;
@@ -6,4 +14,4 @@ padding: 0;
 box-sizing: border-box
 }
 
-body
+body{

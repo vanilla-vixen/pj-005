@@ -1,17 +1,29 @@
-/* fonts & rests /*
-.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+/* fonts & rests */
 
-*{
+
+* { 
 margin: 0;
 padding: 0; 
-box-sizing: border-box
+box-sizing: border-box;
 }
 
-body{
+
+ body{
+    font-family: "Roboto",sans-serif;
+    line-height:1.6em; 
+    color: #3e2723;
+    background-color:  #fff8f0;
+ }
+
+ h1,h2,h3{
+   font-family: "playfair Display" ,sans-serif;
+}
+
+/* container*/
+.container {
+  width:90%;
+  max-width: 1200px;
+  margin: auto;
+  }
+  
+  
